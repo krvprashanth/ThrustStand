@@ -1,0 +1,319 @@
+(footprint "Altech_AK100_1x06_P5.00mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Altech AK100 serie terminal block (Script generated with StandardBox.py) (https://www.altechcorp.com/PDFS/PCBMETRC.PDF)")
+	(tags "Altech AK100 serie connector")
+	(property "Reference" "REF**"
+		(at -1.4175 -3.6175 0)
+		(layer "F.SilkS")
+		(uuid "1d9a3916-911c-476f-9705-2e2ee3eb90ce")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x06"
+		(at 12.5 5.25 0)
+		(layer "F.Fab")
+		(uuid "61c1de4d-355c-4349-ac7a-faa868eef818")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x06_P5.00mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a26afcaa-b10c-40d1-b82c-7d27c98beea0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5344/VIxx01x5xxxxG.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c23ebc11-13db-44f5-b31f-7896ca3e142c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "270c6140-0951-4e08-b5e8-ce5edc0686d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer Part Number/ Generic Part Number[PCB Power]" "VI0601550000G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88dbb4df-3077-436f-b2c9-62fdf084aa8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Name" "Amphenol Anytek"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8ae9302-f737-4552-adb8-057073ac07b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.85 -5.35)
+		(end 0.15 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a9c0d7c-8e39-4a33-a303-b2dfab026240")
+	)
+	(fp_line
+		(start -2.85 -2.35)
+		(end -2.85 -5.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6676f92b-31c9-4c53-b177-ce36e626c94e")
+	)
+	(fp_line
+		(start -2.61 -5.11)
+		(end -2.61 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e67f99e-f9da-40b8-95fe-0bd284d60896")
+	)
+	(fp_line
+		(start -2.61 -5.11)
+		(end 27.61 -5.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1eeeaefd-2d57-41f5-ae0d-a2200c6764fc")
+	)
+	(fp_line
+		(start -2.61 4.11)
+		(end 27.61 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4184b939-0003-4211-bfe3-7f708aca1ea4")
+	)
+	(fp_line
+		(start 27.61 -5.11)
+		(end 27.61 4.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ecc451d-525f-40cb-83e5-296786481f4a")
+	)
+	(fp_line
+		(start -2.75 -5.25)
+		(end -2.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74599477-97f0-4196-a870-27bb10fbc1ee")
+	)
+	(fp_line
+		(start -2.75 -5.25)
+		(end 27.75 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9d131a7-3b25-49b8-b3d5-02a6468ea1f0")
+	)
+	(fp_line
+		(start -2.75 4.25)
+		(end 27.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21ebe1b9-1538-4f0b-aeac-26184f1dcfb5")
+	)
+	(fp_line
+		(start 27.75 -5.25)
+		(end 27.75 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5dbfd16-5e60-42bc-b88b-202c75c32850")
+	)
+	(fp_line
+		(start -2.5 -4)
+		(end -1.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a3bdb21-e3bf-4a03-adbc-561020c30ebb")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30ef42f5-a3c8-4b6e-a17b-2f931e8453e1")
+	)
+	(fp_line
+		(start -1.5 -5)
+		(end 27.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67dab650-36ce-440f-84c9-de1a16876e0e")
+	)
+	(fp_line
+		(start 27.5 -5)
+		(end 27.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d2cbb40-278c-4e0c-b19b-141dc1f237ab")
+	)
+	(fp_line
+		(start 27.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94b8f11f-d261-404b-819b-bd0177f97614")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.5 -0.5 0)
+		(layer "F.Fab")
+		(uuid "1c7cf8ae-17d2-4449-8f66-efc425560e81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26496240-c901-4314-b9f5-7989bdfe640b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a58b835-a65d-43da-ad3f-b4e49de61d5b")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46a96cbc-aeb3-4f1e-bfa6-219431d35c57")
+	)
+	(pad "4" thru_hole circle
+		(at 15 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cce8ea46-7459-44fc-a18f-5e1fa8a91519")
+	)
+	(pad "5" thru_hole circle
+		(at 20 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2560bf9e-41f8-42f4-83cf-e05b6fbb778f")
+	)
+	(pad "6" thru_hole circle
+		(at 25 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "837f6977-8f38-4878-bb80-437b6ccb4833")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Altech.3dshapes/Altech_AK100_1x06_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/prashanth/Downloads/282836-6/282836-6.step"
+		(offset
+			(xyz 12.5 -4 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
